@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    /*background-color:rgb(180, 255, 255);*/
+    background-image: linear-gradient(-15deg,#dacc7a,#fcaf70); 
+    background-attachment: fixed;     
+    font-family: helvetica;
+    font-size: 16px;
+}
+h1 {
+    color: #F2EAC2;
+    background-image: linear-gradient(to bottom, #214001, #4e9704,#193C40) ;
+    font-style: italic;
+    text-shadow: 1px 1px 2px #D96941;
+    
+}
+h2 {
+    color: #b95b39;
+}
+p {
+    color: #000000;
+    text-align: justify;
+}

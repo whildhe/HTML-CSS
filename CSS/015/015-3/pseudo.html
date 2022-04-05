@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo-classes</title>
+    <a href="../../../index.html"><MENU:toolbar>Pagina principal</MENU:toolbar></a>
+
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a {
+        color: red;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:visited {
+        color: darkred;
+        
+    }
+    a:hover {
+        color: black;
+        /*text-decoration: underline;*/
+        border-width: 2px;
+        border-style: solid;
+        border-color: blueviolet;
+        
+    }
+    a:active {
+        color: yellow;
+    }
+    .especial {
+        background-color: aqua;
+    }
+    a::before {
+        content: '=> ';
+    }
+    a::after {
+        content: ' <=';
+    }
+
+</style> 
+<body>
+    <h1>Persdonalizando Links</h1>
+    <ul>
+        <li><a href="https://www.google.com" class="especial" target="_blank">Google</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+    </ul>
+
+    </div>    
+  
+</body>
+<a href="../../../index.html"><MENU:toolbar>Pagina principal</MENU:toolbar></a>
+</html>

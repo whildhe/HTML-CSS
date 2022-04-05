@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+body {
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif
+}
+h1 {
+    color: rgb(194, 248, 68);
+    text-indent: 20px;
+}
+/*
+em HTML é ID = em CSS é #
+em HTML é class = em CSS é .
+*/
+h1#principal {
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+h1#segundo {
+    background-color: rgb(102, 63, 3);
+    color: white;
+}
+h1#terceiro {
+    background-color: rgb(196, 8, 117);
+    color: white;
+    
+}
+h2 {
+    color: rgb(0, 0, 0);
+    text-indent: 20px;
+}
+
+.classe1{
+    background-color: rgb(85, 85, 243);
+}
+.classe2{
+    background-color: rgb(182, 100, 62);
+}
+.classe3{
+    color: rgb(182, 100, 62);
+}

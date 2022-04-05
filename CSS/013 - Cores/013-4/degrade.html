@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="../../../style.css">
+    <title>Degrade</title>
+    <style>
+        /* Configuraçoes global*/
+        /* *{height: 100%;}*/
+        body
+        {    /* (to right: direita)(to left: esquerda)
+                (to bottom: baixo) (to top: acima) (45deg)(-45deg)*/
+            background-image: linear-gradient(-75deg, #56FAE1, #49B7FD, #0D5EFD); 
+            /*deixa imagem fixa */
+            background-attachment: fixed;
+        }    
+    </style>
+</head>
+<h3><a href="../../../index.html"><MENU:toolbar>Pagina principal</MENU:toolbar></a></h3>
+<body>
+    <h1 style="color: white;">Cores em gradiente</h1>
+    <pre>
+        Para configuarmos um degrade devemos usar 
+
+        'stylo'+'background-image:'+'linear-gradient'+'(to x , y , z, w)'
+        
+        x = direção do degrade. 
+        right: direita
+        left: esquerda
+        bottom: baixo
+        top: acima
+        angulos : de 1 a 89deg ou -1deg a -89deg
+
+        y,z,w, ... cores pode ser usada quantas cores vc achar nescessario
+
+        Podemos usar: 'background-attachment: fixed;' para fixarmos a cor da pagina
+        
+        ex.: background-image: linear-gradient(to bottom, #56FAE1, #49B7FD, #0D5EFD)
+    </pre>
+</body>
+</html>

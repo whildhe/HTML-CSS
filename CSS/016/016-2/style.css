@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body {
+    background-color: bisque;
+    font-family: helvetica;
+    margin: 2em;
+}
+a {
+    color: green;
+    border: 2px solid rgb(233, 182, 182);
+    padding: 6px;
+}
+a:hover{
+    background-color: rgb(236, 158, 158);
+}
+h1{
+    font-family: serif;
+    
+    background-color: rgb(180, 180, 180);
+    
+    padding: 10px;
+    
+    border: 1px solid;
+    
+    margin: 10px auto 20px auto
+    
+}   
+p{
+    color: blue;
+    
+    border: 5px solid red;
+    
+    padding: 8px 8px 5px 5px ;
+    
+    margin: 10px auto 20px auto;
+    
+    background-color: white;
+}

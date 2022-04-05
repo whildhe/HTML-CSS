@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo-classes</title>
+    <h3><a href="../../../index.html"><MENU:toolbar>Pagina principal</MENU:toolbar></a></h3>
+</head>
+    <style>
+        div > p#d4 {
+            display: none;
+        }
+
+        div#d3:hover > p {
+            display: block;
+            color: white;
+            background-color: rgb(32, 2, 2);
+            width: 200px;
+        }
+
+        div {
+            display: inline-block;
+            background-color: aquamarine;
+            border: 5px solid black;
+            text-align: center;
+            height: 50px;
+            width: 200px;
+        }
+        div:hover {
+            background-color: rgb(253, 40, 2);
+        }
+
+    </style>
+<body>
+    <h1>Seletores personalizados</h1>
+    <p> #  = id <br>
+        .  = class <br>
+        :  = pseudo-cass <br>
+        :: = pseudo-element <br>
+        >  = clildre <br>
+    </p>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+
+    <h2>Outro exemplo de HOVER</h2>
+    <p>Passe o mausa sobre o texto abaixo</p>
+    <div id="d3">
+        Passe o mause aqui.
+        <p id="d4">TEXTO ESCONDIDO</p>
+    </div>
+    <p>Fim do exempplo</p>
+</body>
+</html>

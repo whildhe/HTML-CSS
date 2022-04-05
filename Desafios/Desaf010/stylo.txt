@@ -1,0 +1,151 @@
+<style>
+@font-face {
+            font-family: 'idroid';
+            src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    }
+    body{
+        background-color: #9aecbf;
+        min-width: auto;
+        max-width: auto;      
+        margin: 0px;
+        border: 0px;
+    }
+    header{
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-image: linear-gradient(to top, #1a5c38, #028054, #3bd27f);
+        box-shadow: 0px 5px 10px rgba(0, 2, 10, 0.579);
+        margin: 0px 0px;
+        color: white;
+        padding: 10px;
+    }
+    header > h1{
+        text-align: center;
+        font-weight: 50;
+    
+    }
+    header > p{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 20px 50px;
+    }
+    nav{
+        font-family: Helvetica;
+        margin: 0px 10px;
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        margin: 0px 2%;
+        
+    }
+    main{
+        max-width: 800px;
+        min-width: 300px;
+        margin: auto;  
+    }
+    section{        
+        margin: auto;      
+    }
+    article{
+        background-color: white;
+        margin: 0px 5%;
+        padding: 3% ;
+        box-shadow: 1px 5px 10px rgba(0, 2, 5, 0.559);
+    }
+    article > h1{
+        background-image: linear-gradient(to top, #9aecbf, #67b99d, #3bd27f);
+        box-shadow: 1px 1px 5px rgba(0, 2, 5, 0.779);
+        text-align: left;
+        font-family: idroid;
+        font-size: larger;
+        padding-left: 5px;
+        margin: 0px;
+        color: #1a5c38;
+    }
+    article > h2{
+        color: #286142;
+        text-align: left;
+        font-family: idroid;
+        padding-left: 5px;
+        margin: 0px;  
+    }
+    h3{
+        background-image: linear-gradient(to top, #335c4e, #134f2e);
+        text-align: left;
+        border-top: 10px;
+        margin: 20px;
+        color: #ffffff; 
+    }
+    p{
+        text-align: justify;
+    }
+    article > p{
+        text-indent: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    picture{
+        text-align: center;
+        display: block;
+        
+        top: 0;
+        right: 0;
+        width: 22.9%;
+        height: 44.2%;
+    }
+    div{
+        background-color:#1a5c38 ;
+        padding: 0px 5%;
+        margin: 0px 5%;
+        box-shadow: 0px 10px 20px rgba(0, 2, 5, 0.559);
+    }
+    iframe{
+        display: block;
+        margin:auto;
+        padding: 20px 0px;
+        border: 0px;       
+    }
+    p > a{    
+        text-decoration: none;
+        color:#134f2e;
+        margin: 0px 2%;
+          
+        padding: 0px 5px 0px 5px;
+    }
+    #comentario{      
+        margin-bottom: 20px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+        
+    }
+    #comentario > h3{
+        background-color: #134f2e;
+        text-align: left;  
+        margin: 0px 2%;
+        color: #ffffff;
+        padding: 5px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #comentario > #teste{
+        margin: 0px 2%;
+        padding: 3%;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: rgb(199, 246, 246);
+    }
+    #comentario > #teste2{
+        margin: 0px;
+        padding: 2%;
+    }
+    footer{
+        background-color: rgb(2, 48, 16);
+        color: white;
+        padding: 4px;
+        margin: 0px;
+    }
+    footer > p{
+        margin: 1px;
+        text-align: center;
+    }   
+</style>
