@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root {
+    --cor0: #4A0F73;
+    --cor1: #33107D; 
+    --cor2: #161266; 
+    --cor3: #0081ff; 
+    --cor4: #0F3F73; 
+    --cor5: #0000ff;
+}
+
+body {   
+    height: 100hv;
+    background-size: cover;
+    background: 
+    #161266 url('imagem/paisagens-da-natureza-cachoeira.jpg') center top repeat fixed;
+    margin: 2em;
+}
+
+h1 { 
+    background-color: var(--cor3);
+    color: var(--cor5);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    text-shadow: 0px 5px 10px #4A0F73;
+}
+
+p{
+    background-color: #92c9ff;
+    padding: 25px;
+}
