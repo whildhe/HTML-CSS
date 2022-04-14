@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            border: 3px solid rgb(73, 29, 29);
+            text-align: justify;
+        }
+        tr.linha{ 
+            background-color:rgb(163, 170, 170) ;
+        }
+        td{
+            width: 100px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        td.limpo {
+            border: 0px;
+            background-color: white;
+        }
+        td.total{
+            color: red;            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>100,00</td>
+            <td>100,00</td>
+            <td>c1</td>
+            <td>d1</td>
+        </tr>
+        <tr class="linha">
+            <td>100,00</td>
+            <td>b2</td>
+            <td>c2</td>
+            <td>d2</td>
+        </tr>
+        <tr>
+            <td>100,00</td>
+            <td>b3</td>
+            <td>c3</td>
+            <td>d3</td>
+        </tr>
+        <tr>
+            <td class="limpo"></td>
+            <td class="limpo"></td>
+            <td style="background-color: rgba(0, 0, 0, 0.475);">Total</td>
+            <td class="total">R$ 900,00</td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
