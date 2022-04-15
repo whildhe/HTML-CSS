@@ -14,12 +14,18 @@
             border-collapse: collapse;
             border: 3px solid rgb(73, 29, 29);
         }
+        caption {
+            font-size: 2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         /* 
         th > titulo alinhamento central
         td > dados alinhamento esquerda
         */
         td, th {
-            border: 1px solid black;
+            border: 1px solid rgb(155, 6, 255);
             padding: 8px;
             vertical-align: middle;   /*Alinhamento vertical*/
         }
@@ -33,14 +39,21 @@
     </style>
 </head>
 <body>
+    <h1>Tabelas Grandes</h1>
     <table>
-       <thead> <!--Cabeçario--> 
-            <tr>
-                <th>Estado</th> 
-                <th>População</th>
+        <caption>
+            População Brasileira
+        </caption>
+        <!-- Cabeçario -->
+       <thead>  
+            <tr> 
+                <!-- SCOPE utililado pelos aplicativos de buscas -->
+                <th scope="col">Estado</th> 
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
        </thead>
-       <tbody> <!--Conteudo-->
+       <!--Conteudo-->
+       <tbody> 
             <tr>
                 <td>São Paulo</td>
                 <td class="num">46.649.132</td>
@@ -151,10 +164,11 @@
             </tr>
 
        </tbody>
-       <tfoot> <!--Rodape-->
+       <!--  Rodape  -->
+       <tfoot> 
             <tr>
-                <th>Total de Habitantes</th>
-                <td><strong>213.317.639</strong></td>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num"><strong>213.317.639</strong></td>
             </tr>
        </tfoot>
     </table>
